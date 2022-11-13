@@ -45,10 +45,11 @@ while True:
         print(f"PC: {pcscore}")
         break
 
+print("\n\n")
 print("Final Scores")
 print(f"User: {userscore}")
 print(f"PC: {pcscore}")
-print("\n\n")
+
 
 if userscore > pcscore:
     print("You won the game!")
