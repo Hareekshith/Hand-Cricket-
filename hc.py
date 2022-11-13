@@ -19,7 +19,7 @@ while True:
         
     if userin > usermaxball:
         print("invalid input")
-        break
+        continue
         
     if userin == pcin:
         print("OUTTT")
@@ -38,7 +38,7 @@ while True:
         
     if userin > usermaxball:
         print("invalid input")
-        break
+        continue
         
     if userin == pcin:
         print("End of the Battle")
